@@ -155,7 +155,7 @@ default_language = en
 localizations = en
 
 [windows]
-app_icon = /assets/app_icons/appicon.ico
+app_icon = /assets/appicon.ico
 
 [html5]
 custom_heap_size = 0
