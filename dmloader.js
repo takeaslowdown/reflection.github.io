@@ -33,7 +33,7 @@ var CUSTOM_PARAMETERS = {
     archive_location_filter: function( path ) {
         return ("archive" + path + "");
     },
-    engine_arguments: ["--verify-graphics-calls=false","--verify-graphics-calls=false",],
+    engine_arguments: ["--verify-graphics-calls=false",],
     custom_heap_size: 268435456,
     full_screen_container: "#canvas-container",
     disable_context_menu: true,
@@ -195,11 +195,11 @@ var FileLoader = {
 var EngineLoader = {
     
     
-    wasm_size: 2910035,
+    wasm_size: 2421742,
     
-    wasmjs_size: 264118,
+    wasmjs_size: 264126,
     
-    asmjs_size: 4000000,
+    asmjs_size: 5062847,
     wasm_instantiate_progress: 0,
 
     stream_wasm: "false" === "true",
